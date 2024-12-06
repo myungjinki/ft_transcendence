@@ -1,7 +1,7 @@
 # ft_transcendence
 Sucessful Conclusion. It's for final subject, ft_transcendence
 
-# Getting Started
+## Getting Started
 
 만약 클러스터라면 ./srcs/docker/init_docker.sh를 실행해주세요.
 
@@ -15,7 +15,7 @@ Sucessful Conclusion. It's for final subject, ft_transcendence
 docker-compose up --build
 ```
 
-# Version
+## Version
 
 2022년 6~8월 LTS를 사용하였습니다. 하지만 docker와 docker-compose는 클러스터 환경입니다.
 
@@ -25,7 +25,7 @@ docker-compose up --build
 |docker-compose|1.16.1, build 6d1ac21|
 |NodeJS|16.15.1|
 
-# Adminer 사용법
+## Adminer 사용법
 
 localhost:8080 접속
 
@@ -37,9 +37,9 @@ localhost:8080 접속
 |비밀번호||
 |데이터베이스||
 
-# Architecture
+## Architecture
 
-## Front
+### Front
 
 ```
 .
@@ -85,7 +85,7 @@ localhost:8080 접속
 └── tsconfig.json
 ```
 
-## Back
+### Back
 
 ```
 .
